@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  height: 8vh;
+}
+
+.title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color:#4B384C;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.accessibility-animation {
+  display: inline-block;
+}
+.accessibility-animation .middle-letters, .accessibility-animation .end-letters, .accessibility-animation .alternate-middle-letters {
+  display: inline-block;
+  overflow: hidden;
+  height: 1.5em;
+}
+.accessibility-animation .end-letters {
+  color: #632C65;
+}
+.accessibility-animation .middle-letters, .accessibility-animation .alternate-middle-letters {
+  color: #4B384C;
+}
+.accessibility-animation .middle-letters {
+  animation: accessibility-middle-letters-animation 10s infinite;
+  animation-delay: -7s;
+  max-width: 0;
+}
+.accessibility-animation .alternate-middle-letters {
+  animation: accessibility-alternate-middle-letters-animation 10s infinite;
+  animation-delay: -7s;
+  max-width: 0;
+}
+
+@keyframes accessibility-middle-letters-animation {
+  0% {
+    max-width: 500px;
+  }
+  25% {
+    max-width: 0;
+  }
+  75% {
+    max-width: 0;
+  }
+  90% {
+    max-width: 500px;
+  }
+  100% {
+    max-width: 500px;
+  }
+}
+@keyframes accessibility-alternate-middle-letters-animation {
+  0% {
+    max-width: 0;
+  }
+  25% {
+    max-width: 0;
+  }
+  50% {
+    max-width: 500px;
+  }
+  75% {
+    max-width: 0;
+  }
+  100% {
+    max-width: 0;
+  }
+}
+

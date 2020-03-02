@@ -1,0 +1,88 @@
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+li{
+    position: relative;
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+  margin: 3px;
+  float:left;
+  list-style: none;
+  
+}
+
+.fas{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    color: #4B384C;
+    text-align: center;
+    font-size: 1.4em;
+    transition: all 1s;
+}
+.fa-home{
+  font-size: 1.3em;
+}
+.fas span{
+  color: #4B384C;
+  visibility: hidden;
+  padding-left: 20px;
+}
+
+li{
+  cursor: pointer;
+}
+
+li:nth-of-type(1):hover, .active:nth-of-type(1){
+    width: 132px;
+}
+li:nth-of-type(2):hover, .active:nth-of-type(2){
+  width:112px;
+}
+li:nth-of-type(3):hover, .active:nth-of-type(3){
+  width:150px;
+}
+li:nth-of-type(4):hover, .active:nth-of-type(4){
+  width:125px;
+}
+
+li:hover input{
+    display: block;
+}
+
+li:hover .fas, .active .fas{
+    background: #E2A9E5;
+    color: white;
+}
+li:hover .fas span, .active span{
+  visibility: visible;
+}
+
+.des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+#igor {
+  color: white;
+  text-decoration: none;
+}
