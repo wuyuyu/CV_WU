@@ -4,10 +4,19 @@
 <head>
   <meta charset="utf-8" />
 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="index.css">
   <link rel="stylesheet" type="text/css" href="name.css">
-  
+  <link rel="stylesheet" type="text/css" href="footer.css">
 
+  
+  
+  <script type="text/javascript">
+    function hidden4parties() {
+      document.getElementById("4parties").style.display="none";
+    }
+  </script>
 
 	<title>CV Yuyuan Wu</title>
 </head>
@@ -18,31 +27,29 @@
   <span class="end-letters">Y</span><span class="middle-letters">uyuan.</span><span class="alternate-middle-letters"> u</span><span class="end-letters">WU</span>
   </h1>
   </div>
-
-
   <div class="title">
     <h1 class="titleFonction">Développeuse Agile Full-Stack</h1>
   </div>
  
     
-
-    <main class="page-content">
+  <div id="4parties">
+        <main class="page-content">
       <div class="card">
           <div class="content">
               <h2 class="title">Compétences</h2>
               <p class="copy">Formations, Langages de programmation</p>
-              <button class="btn">Détails...</button> </div>
+              <button class="btn" onclick="hidden4parties();competences();" >Détails...</button> </div>
       </div>
       <div class="card">
           <div class="content">
-              <h2 class="title">我</h2>
-              <p class="copy">En savoir plus sur moi?
-              </p><button class="btn">Plus...</button></div>
+              <h2 class="title">Moi 我 me</h2>
+              <p class="copy">En savoir plus sur moi? Centres d'intérêts, loisirs ...
+              </p><button class="btn" onclick="hidden4parties()">Plus...</button></div>
       </div>
       <div class="card">
           <div class="content">
               <h2 class="title">Expériences</h2>
-              <p class="copy">Projets</p><button class="btn">Détails...</button></div>
+              <p class="copy">Projets</p><button class="btn" onclick="hidden4parties()">Détails...</button></div>
       </div>
       <div class="card">
           <div class="content">
@@ -50,6 +57,42 @@
               <p class="copy"></p><button class="btn">Télécharger</button></div>
       </div>
       </main>
+  </div>
+
+  <div id="competences" classe="page-content" style="display: block;">
+
+    ddsfgqezhe
+
+  </div>
+
+
+ 
+
+<footer class="contentFooter">
+ 
+<ul>
+  <li class="active">
+    <i class="fas fa-phone"><span>Coordonnées</span></i>
+  </li>
+  <li>
+  <i class="fas fa-info-circle"><span>Info</span></i>
+  </li>
+  <a href="https://www.linkedin.com/in/yuyuan-wu-b4767494/">
+  <li>
+  <i class="fab fa-linkedin"><span>Linkedin</span></i>
+  </li>
+  </a>
+  <li>
+    <a href="https://github.com/wuyuyu">
+  <i class="fab fa-github"><span>GitHub</span></i>
+  </li>
+    </a>
+</ul>
+  <div class="des"><p>WU <a id="yuyuan" href="https://www.linkedin.com/in/yuyuan-wu-b4767494/" target="_blank">Yuyuan</a></p></div>
+
+</footer>
+
+
 
 
 

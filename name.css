@@ -8,14 +8,14 @@
   align-items: left;
   justify-content: left;
   font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
-  height: 8vh;
+  font-size: 23px;
+  height: 10vh;
 }
 
 .titleFonction{
   font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
-  color:#4B384C;
+  font-size: 23px;
+  color:#011A03;
   align-items: center;
   justify-content: center;
 }
@@ -38,10 +38,10 @@
   height: 1.5em;
 }
 .accessibility-animation .end-letters {
-  color: #632C65;
+  color:white;
 }
 .accessibility-animation .middle-letters, .accessibility-animation .alternate-middle-letters {
-  color: #4B384C;
+  color: #4AB589 ;
 }
 .accessibility-animation .middle-letters {
   animation: accessibility-middle-letters-animation 10s infinite;

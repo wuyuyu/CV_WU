@@ -15,7 +15,7 @@
  body {
    display: grid;
    place-items: center;
-    background-color: #D2CAD9;  
+    background-color: #39473E  ;  
 }
  .page-content {
    display: grid;
@@ -90,10 +90,13 @@
 
 }
  .card:nth-child(3):before {
-   background-image: url('./img/nerf.jpg');
+   background-image: url('./img/rdn.jpg');
 }
  .card:nth-child(4):before {
    background-image: url('./img/fleche.png');
+   background-position: top,center;
+   background-size: 120%;
+   background-repeat: no-repeat;
 }
  .content {
    position: relative;
