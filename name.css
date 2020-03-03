@@ -15,7 +15,7 @@
 .titleFonction{
   font-family: 'Open Sans', sans-serif;
   font-size: 23px;
-  color:#011A03;
+  color:white;
   align-items: center;
   justify-content: center;
 }
@@ -25,6 +25,20 @@
   color:#EFE4F0;
   align-items: center;
   justify-content: center;
+  height: 4vh;
+}
+
+.sousTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #EFE4F0;
+}
+
+.textes{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color:white;
 }
 
 
@@ -38,10 +52,10 @@
   height: 1.5em;
 }
 .accessibility-animation .end-letters {
-  color:white;
+  color:#E6F2E6;
 }
 .accessibility-animation .middle-letters, .accessibility-animation .alternate-middle-letters {
-  color: #4AB589 ;
+  color:#B3CAAA;
 }
 .accessibility-animation .middle-letters {
   animation: accessibility-middle-letters-animation 10s infinite;
@@ -89,3 +103,19 @@
   }
 }
 
+.des{
+  font-family: 'Open Sans', sans-serif;
+  color: #011A03;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.mail{
+  font-family: 'Open Sans', sans-serif;
+  color: #011A03;
+  display:relative;
+  justify-content: center;
+  align-items: center;
+}

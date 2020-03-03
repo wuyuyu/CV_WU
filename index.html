@@ -10,13 +10,6 @@
   <link rel="stylesheet" type="text/css" href="name.css">
   <link rel="stylesheet" type="text/css" href="footer.css">
 
-  
-  
-  <script type="text/javascript">
-    function hidden4parties() {
-      document.getElementById("4parties").style.display="none";
-    }
-  </script>
 
 	<title>CV Yuyuan Wu</title>
 </head>
@@ -30,6 +23,7 @@
   <div class="title">
     <h1 class="titleFonction">Développeuse Agile Full-Stack</h1>
   </div>
+  <div class="mail"><p>Tél: +33 625036400 Email:<a id="yuyuan" href="mailto: wu.yuyuan@hotmail"> wu.yuyuan@hotmail.com</a></p></div>
  
     
   <div id="4parties">
@@ -38,18 +32,18 @@
           <div class="content">
               <h2 class="title">Compétences</h2>
               <p class="copy">Formations, Langages de programmation</p>
-              <button class="btn" onclick="hidden4parties();competences();" >Détails...</button> </div>
+              <button class="btn" onclick="hidden4parties();afficheCompetenses();" >Détails...</button> </div>
       </div>
       <div class="card">
           <div class="content">
               <h2 class="title">Moi 我 me</h2>
               <p class="copy">En savoir plus sur moi? Centres d'intérêts, loisirs ...
-              </p><button class="btn" onclick="hidden4parties()">Plus...</button></div>
+              </p><button class="btn" onclick="hidden4parties(); afficheMoi();">Plus...</button></div>
       </div>
       <div class="card">
           <div class="content">
               <h2 class="title">Expériences</h2>
-              <p class="copy">Projets</p><button class="btn" onclick="hidden4parties()">Détails...</button></div>
+              <p class="copy">Projets</p><button class="btn" onclick="hidden4parties();afficheExperiences();">Détails...</button></div>
       </div>
       <div class="card">
           <div class="content">
@@ -59,42 +53,112 @@
       </main>
   </div>
 
-  <div id="competences" classe="page-content" style="display: block;">
 
-    ddsfgqezhe
+  <div id="competences" classe="page-content" style="display: none;">
+    <div class="titleFonction">Développeur informatique</div>
+    <div class="sousTitle">Projets Personnels - Depuis novembre 2019</div>
+    <div class="textes">
+        Projet en cours:
+        Création d'une application mobile avec React Native
 
+        Création d'un site Web avec React JS:
+        - Conception de la préproduction: Construction du product Backlog, définition des user stories, définition des critères d'acceptation des fonctionnalités, modélisation de la BDD
+        - Librairies: Redux, React Router, React Navigation, React Firebase, Firebase Cloud Messaging (FCM)
+        - L'environnement: Node.js 
+        - Gestion de dépendances: NPM
+
+        Création d'un jeu Quizz en Javascript POO
+        -Utilisation de Babel / Webpack
+        -Gestion de paquet avec NPM
+        -https://wuyuyu.github.io/Quizz_Javascript/Coding_Dojo.html
+
+        Création d'une application d'enchère en JAVA - fichier .JAR exécutable en ligne de commande sur le terminal
+        - https://github.com/wuyuyu/Raises
+
+        Modifier
+        Déplacer
+        Supprimer
+        Developpeur informatique
+        Use It Cloud Février 2020 Stage
+        Création des pages web avec Laravel: MVC, Routing, Middelware, service providers
+        Création des VM via le plateform Use IT Cloud
+        Découverte du Fonctionnement du CMP, le Cloud Computing, AWS API, composants logiciels et l'environnement du développement du Use IT Cloud
+
+        Modifier
+        Déplacer
+        Supprimer
+        Directrice Boutique
+        CAUDALIE 2014 à 2017 CDI Carrousel du Louvre - Paris 1er
+        - Management de 6 vendeuses.
+        - Développement du chiffre d'affaire.
+        - Création et animation d'un réseau d'apporteurs d'affaire.
+
+        Modifier
+        Déplacer
+        Supprimer
+        Fondatrice et Gérante
+        iLEAD 2006 à 2012 Paris
+        - Création d'une entreprise de E-commerce spécialisée dans la distribution de produits high-tech.
+        - Création et l'administration de 3 sites de e-commerce
+        - Gestion et l'exploitation d'une base de données
+        - Gestion de référencement naturel (SEO)
+        - Google AdWords Express.
+      </div>
   </div>
 
 
+
+  <div id="moi" classe="page-content" style="display: none;">
+    moi
+  </div>  
+
+  <div id="experiences" classe="page-content" style="display: none;">
+    experience
+  </div>  
  
 
 <footer class="contentFooter">
- 
 <ul>
-  <li class="active">
-    <i class="fas fa-phone"><span>Coordonnées</span></i>
-  </li>
-  <li>
-  <i class="fas fa-info-circle"><span>Info</span></i>
-  </li>
-  <a href="https://www.linkedin.com/in/yuyuan-wu-b4767494/">
-  <li>
-  <i class="fab fa-linkedin"><span>Linkedin</span></i>
-  </li>
-  </a>
-  <li>
-    <a href="https://github.com/wuyuyu">
-  <i class="fab fa-github"><span>GitHub</span></i>
-  </li>
-    </a>
-</ul>
-  <div class="des"><p>WU <a id="yuyuan" href="https://www.linkedin.com/in/yuyuan-wu-b4767494/" target="_blank">Yuyuan</a></p></div>
+  <li class="active"><a href="https://wuyuyu.github.io/CV_WU/"> 
+    <i class="fas fa-home"><span>Home</span></i>
+  </a></li>
 
+  
+  <li><a href="https://www.linkedin.com/in/yuyuan-wu-b4767494/">   
+  <i class="fab fa-linkedin"><span>Linkedin</span></i>
+  </a></li>
+  
+  <li><a href="https://github.com/wuyuyu"> 
+  <i class="fab fa-github"><span>GitHub</span></i>
+  </a></li>
+   
+   <li>
+  <i class="fas fa-phone" onclick="afficheContact()"><span>Coordonnées</span></i>
+  </li>
+</ul>
+  <div class="des"><p>
+    Développé en HTML, CSS, JavaScript par WU <a id="yuyuan" href="https://www.linkedin.com/in/yuyuan-wu-b4767494/" target="_blank">Yuyuan</a></p></div>
 </footer>
 
 
 
+  <script type="text/javascript">
+    function hidden4parties() {
+      document.getElementById("4parties").style.display="none";
+    }
 
+    function afficheCompetenses(){
+      document.getElementById("competences").style.display="block";
+    }
+
+    function afficheMoi(){
+      document.getElementById("moi").style.display="block";
+    }
+
+    function afficheExperiences(){
+      document.getElementById("experiences").style.display="block";
+    }
+  </script>
 
 
 
