@@ -12,10 +12,17 @@
   height: 8vh;
 }
 
+.titleFonction{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  color:#4B384C;
+  align-items: center;
+  justify-content: center;
+}
+
 .title{
   font-family: 'Open Sans', sans-serif;
-  font-size: 26px;
-  color:#4B384C;
+  color:#EFE4F0;
   align-items: center;
   justify-content: center;
 }
