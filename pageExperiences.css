@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+.bloc-experiences{
+	width: 600px;
+	background-color: #496449;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+
+.intitule{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+  color:black;
+
+	padding-left: 50px;
+	justify-content: flex;
+}
+
+.societeDate{
+	font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color:#011C01;
+	padding-left: 50px;
+	justify-content: flex;
+	font-weight: bold;
+
+}
+
+.descriptions{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color:#E6F2E6;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
