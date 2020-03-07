@@ -175,6 +175,17 @@
   }
 }
 
+ .btnCV {
+   cursor: pointer;
+   margin-top: 1.5rem;
+   text-decoration: none;
+   font-size: 0.7rem;
+   font-weight: bold;
+   letter-spacing: 0.025rem;
+   text-transform: uppercase;
+   color: white;
+   border: none;
 
+}
 
  
