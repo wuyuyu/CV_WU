@@ -80,20 +80,20 @@
    transition: transform calc(var(--d) * 2) var(--e);
 }
  .card:nth-child(1):before {
-   background-image: url('./img/matrix1.jpg');
+   background-image: url('../img/matrix1.jpg');
    background-size: 90%;
 }
  .card:nth-child(2):before {
-   background-image: url('./img/yuyuan.png');
+   background-image: url('../img/yuyuan.png');
    background-position: center;
    background-repeat: no-repeat;
 
 }
  .card:nth-child(3):before {
-   background-image: url('./img/rdn.jpg');
+   background-image: url('../img/rdn.jpg');
 }
  .card:nth-child(4):before {
-   background-image: url('./img/fleche.png');
+   background-image: url('../img/fleche.png');
    background-position: top,center;
    background-size: 120%;
    background-repeat: no-repeat;
